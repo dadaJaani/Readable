@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Gafata');
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gafata';
+  min-width: 600px;
+}
+button {
+  font-family: 'Gafata';
+}
+
+input {
+  font-family: 'Gafata';
+}
+
+textarea {
+  font-family: 'Gafata';
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Gafata');
+
+
+
+body, html {
+  background-color: #eee;
+  margin: 0;
+}
+
+.error-container {
+  width: 100%;
+}
+.error {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: 100px auto;
+  font-size: 2em;
+}
+
+.error-button {
+  display: block;
+  width: 50%;
+  height: 40px;
+  margin: 10px auto 0 ;
+  padding: 10px;
+  background: 0;
+  border: 1px #423 solid;
+  color: #423;
+  border-radius: 10px;
+}
+.error-button:hover {
+  background: #423;
+  color: #ccc;
+}
+
+.readable-header {
+  margin: 0;
+  height: 100px;
+  line-height: 100px;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 10px;
+  background: #423;
+  color: #ddd;
+  cursor: pointer;
+}
+.home-link {
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: #423;
+  color: #ddd;
+}
+.home-link:hover {
+  background: #444333;
+}
+
+.category-list {
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  background: #423;
+  color: #ddd;
+}
+.category-list  h3{
+  cursor: default;
+  padding: 10px;
+  margin: 0;
+  border-bottom:  1px #ddd solid;
+}
+.category-list-item {
+  display: inline-block;
+  width: 12.5%;
+  box-sizing: border-box;
+  font-size: 0.68em;
+  text-align: center;
+  padding: 10px;
+  background: 0;
+  border-right: 1px #ddd solid;
+  color: #ddd;
+}
+.category-list-item:hover {
+  background: #444333;
+}
+
+.category-button:hover {
+  background: #333;
+  color: #ccc;
+}
+
+.create-post-button {
+  display: block;
+  width: 95%;
+  height: 40px;
+  margin: 10px auto 0 ;
+  padding: 10px;
+  background: 0;
+  border: 1px #423 solid;
+  color: #423;
+  border-radius: 10px;
+}
+.create-post-button:hover {
+  background: #423;
+  color: #ccc;
+}
+
+.modal-create-post {
+  padding: 2% 10%;
+}
+.modal-create-post h1 {
+  color: #423;
+  text-align: center;
+}
+
+.modal-create-post input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 1.2px solid #423;
+}
+
+.modal-create-post textarea {
+  width: 100.3%;
+  padding: 10px 10px 0;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 1.2px solid #423;
+}
+
+.modal-create-post select {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 1.2px solid #423;
+}
+.modal-create-post option {
+  background: #423;
+  color: #ccc;
+  border: 1px dashed #ddd;
+}
+.modal-create-post option:visited {
+  background: #ccc;
+}
+
+.modal-create-post button {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  background: 0;
+  border: 1.2px #423 solid;
+  color: #423;
+  border-radius: 10px;
+}
+.modal-create-post button:hover {
+  background: #423;
+  border: 1.2px #423 solid;
+  color: #ddd;
+}
+
+.modal-delete-box {
+  background: #423;
+  color: #ddd;
+  width: 500px;
+  height: 200px;
+  position: fixed;
+  margin: -100px 0 0 -250px;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 15px;
+
+}
+
+.button-delete-yes {
+  background: 0;
+  border: 2px solid #ddd;
+  width: 150px;
+  padding: 10px;
+  color: #ddd;
+  border-radius: 10px;
+  margin: 0 2%;
+  font-size: 1.2em;
+}
+.button-delete-yes:hover {
+  background: #ddd;
+  color: #423;
+}
+
+.button-delete-no {
+  background: 0;
+  border: 2px solid #ddd;
+  width: 150px;
+  padding: 10px;
+  color: #ddd;
+  border-radius: 10px;
+  margin: 0 2%;
+  font-size: 1.2em;
+}
+.button-delete-no:hover {
+  background: #ddd;
+  color: #423;
+}
